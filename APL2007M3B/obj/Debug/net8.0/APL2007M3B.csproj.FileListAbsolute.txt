@@ -1,0 +1,15 @@
+/workspaces/c-sharp-sample1/APL2007M3B/bin/Debug/net8.0/APL2007M3B
+/workspaces/c-sharp-sample1/APL2007M3B/bin/Debug/net8.0/APL2007M3B.deps.json
+/workspaces/c-sharp-sample1/APL2007M3B/bin/Debug/net8.0/APL2007M3B.runtimeconfig.json
+/workspaces/c-sharp-sample1/APL2007M3B/bin/Debug/net8.0/APL2007M3B.dll
+/workspaces/c-sharp-sample1/APL2007M3B/bin/Debug/net8.0/APL2007M3B.pdb
+/workspaces/c-sharp-sample1/APL2007M3B/obj/Debug/net8.0/APL2007M3B.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharp-sample1/APL2007M3B/obj/Debug/net8.0/APL2007M3B.AssemblyInfoInputs.cache
+/workspaces/c-sharp-sample1/APL2007M3B/obj/Debug/net8.0/APL2007M3B.AssemblyInfo.cs
+/workspaces/c-sharp-sample1/APL2007M3B/obj/Debug/net8.0/APL2007M3B.csproj.CoreCompileInputs.cache
+/workspaces/c-sharp-sample1/APL2007M3B/obj/Debug/net8.0/APL2007M3B.sourcelink.json
+/workspaces/c-sharp-sample1/APL2007M3B/obj/Debug/net8.0/APL2007M3B.dll
+/workspaces/c-sharp-sample1/APL2007M3B/obj/Debug/net8.0/refint/APL2007M3B.dll
+/workspaces/c-sharp-sample1/APL2007M3B/obj/Debug/net8.0/APL2007M3B.pdb
+/workspaces/c-sharp-sample1/APL2007M3B/obj/Debug/net8.0/APL2007M3B.genruntimeconfig.cache
+/workspaces/c-sharp-sample1/APL2007M3B/obj/Debug/net8.0/ref/APL2007M3B.dll

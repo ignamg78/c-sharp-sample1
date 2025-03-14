@@ -1,0 +1,15 @@
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/bin/Debug/net8.0/APL2007M3SalesReport-InlineChat
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/bin/Debug/net8.0/APL2007M3SalesReport-InlineChat.deps.json
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/bin/Debug/net8.0/APL2007M3SalesReport-InlineChat.runtimeconfig.json
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/bin/Debug/net8.0/APL2007M3SalesReport-InlineChat.dll
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/bin/Debug/net8.0/APL2007M3SalesReport-InlineChat.pdb
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/obj/Debug/net8.0/APL2007M3SalesReport-InlineChat.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/obj/Debug/net8.0/APL2007M3SalesReport-InlineChat.AssemblyInfoInputs.cache
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/obj/Debug/net8.0/APL2007M3SalesReport-InlineChat.AssemblyInfo.cs
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/obj/Debug/net8.0/APL2007M3SalesReport-InlineChat.csproj.CoreCompileInputs.cache
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/obj/Debug/net8.0/APL2007M3SalesReport-InlineChat.sourcelink.json
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/obj/Debug/net8.0/APL2007M3SalesReport-InlineChat.dll
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/obj/Debug/net8.0/refint/APL2007M3SalesReport-InlineChat.dll
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/obj/Debug/net8.0/APL2007M3SalesReport-InlineChat.pdb
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/obj/Debug/net8.0/APL2007M3SalesReport-InlineChat.genruntimeconfig.cache
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/obj/Debug/net8.0/ref/APL2007M3SalesReport-InlineChat.dll

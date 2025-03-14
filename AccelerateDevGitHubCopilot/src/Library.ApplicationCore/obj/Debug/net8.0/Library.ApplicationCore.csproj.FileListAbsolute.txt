@@ -1,0 +1,12 @@
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/bin/Debug/net8.0/Library.ApplicationCore.deps.json
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/bin/Debug/net8.0/Library.ApplicationCore.dll
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/bin/Debug/net8.0/Library.ApplicationCore.pdb
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/obj/Debug/net8.0/Library.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/obj/Debug/net8.0/Library.ApplicationCore.AssemblyInfoInputs.cache
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/obj/Debug/net8.0/Library.ApplicationCore.AssemblyInfo.cs
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/obj/Debug/net8.0/Library.ApplicationCore.csproj.CoreCompileInputs.cache
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/obj/Debug/net8.0/Library.ApplicationCore.sourcelink.json
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/obj/Debug/net8.0/Library.ApplicationCore.dll
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/obj/Debug/net8.0/refint/Library.ApplicationCore.dll
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/obj/Debug/net8.0/Library.ApplicationCore.pdb
+/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.ApplicationCore/obj/Debug/net8.0/ref/Library.ApplicationCore.dll

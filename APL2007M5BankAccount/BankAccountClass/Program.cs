@@ -13,11 +13,7 @@
             {
                 try
                 {
-                    double initialBalance = GenerateRandomBalance(10, 50000);
-                    string accountHolderName = GenerateRandomAccountHolder();
-                    string accountType = GenerateRandomAccountType();
-                    DateTime dateOpened = GenerateRandomDateOpened();
-                    BankAccount account = new BankAccount($"Account {createdAccounts + 1}", initialBalance, accountHolderName, accountType, dateOpened);
+                    BankAccount account = CreateRandomBankAccount(createdAccounts);
                     accounts.Add(account);
                     createdAccounts++;
                 }
@@ -26,6 +22,8 @@
                     Console.WriteLine($"Account creation failed: {ex.Message}");
                 }
             }
+            
+            
 
             // Simulate 100 transactions for each account
             foreach (BankAccount account in accounts)
@@ -77,6 +75,21 @@
             }
         }
 
+        static BankAccount CreateRandomBankAccount(int accountIndex)
+        {
+                double initialBalance = GenerateRandomBalance(10, 50000);
+                string accountHolderName = GenerateRandomAccountHolder();
+                string accountType = GenerateRandomAccountType();
+                DateTime dateOpened = GenerateRandomDateOpened();
+            
+                return new BankAccount(
+                    $"Account {accountIndex + 1}", 
+                    initialBalance, 
+                    accountHolderName, 
+                    accountType, 
+                    dateOpened
+                );
+            }
         static double GenerateRandomBalance(double min, double max)
         {
             Random random = new Random();
