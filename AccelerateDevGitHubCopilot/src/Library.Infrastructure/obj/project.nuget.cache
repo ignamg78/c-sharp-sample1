@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "v4kaqWIStsY=",
+  "success": true,
+  "projectFilePath": "/workspaces/c-sharp-sample1/AccelerateDevGitHubCopilot/src/Library.Infrastructure/Library.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

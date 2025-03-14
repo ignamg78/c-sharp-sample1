@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/APL2007M3SalesReport-InlineChat.csproj": {}
+  },
+  "projects": {
+    "/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/APL2007M3SalesReport-InlineChat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/APL2007M3SalesReport-InlineChat.csproj",
+        "projectName": "APL2007M3SalesReport-InlineChat",
+        "projectPath": "/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/APL2007M3SalesReport-InlineChat.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/c-sharp-sample1/APL2007M3SalesReport-InlineChat/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

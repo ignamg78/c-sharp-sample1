@@ -1,4 +1,10 @@
-﻿namespace BankAccountApp
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace BankAccountApp
 {
     class Program
     {
@@ -31,24 +37,20 @@
                     string accountType = GenerateRandomAccountType();
                     DateTime dateOpened = GenerateRandomDateOpened();
                     string accountNumber = "102000" + random.Next(1000, 9999).ToString();
-                    BankAccount account = new(accountNumber, initialBalance, accountHolderName, accountType, dateOpened);
+                    string pin = GenerateRandomPin();
+                    BankAccount account = new(accountNumber, initialBalance, accountHolderName, accountType, dateOpened, pin);
                     accounts.Add(account);
                     createdAccounts++;
-
                 }
                 catch (ArgumentException ex)
                 {
                     Console.WriteLine($"Account creation failed due to invalid argument: {ex.Message}");
-                    // Log the exception
+                    LogException(ex);
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Account creation failed: {ex.Message}");
-                    // Log the exception
-                }
-                finally
-                {
-                    // Any cleanup code would go here.
+                    LogException(ex);
                 }
             }
             return accounts;
@@ -58,6 +60,7 @@
         {
             var tasks = accounts.Select(async account =>
             {
+                string pin = GenerateRandomPin(); // Assuming you have a way to get the correct PIN for each account
                 for (int i = 0; i < numberOfTransactions; i++)
                 {
                     double transactionAmount = GenerateRandomDollarAmount(false, minTransactionAmount, maxTransactionAmount);
@@ -65,22 +68,23 @@
                     {
                         if (transactionAmount >= 0)
                         {
-                            account.Credit(transactionAmount);
-                            Console.WriteLine($"Credit: {transactionAmount}, Balance: {account.Balance.ToString("C")}, Account Holder: {account.AccountHolderName}, Account Type: {account.AccountType}");
+                            account.Credit(transactionAmount, pin);
+                            Console.WriteLine($"Credit: {transactionAmount}, Balance: {account.GetBalance().ToString("C")}, Account Holder: {account.GetAccountHolderName()}, Account Type: {account.AccountType}");
                         }
                         else
                         {
-                            account.Debit(-transactionAmount);
-                            Console.WriteLine($"Debit: {transactionAmount}, Balance: {account.Balance.ToString("C")}, Account Holder: {account.AccountHolderName}, Account Type: {account.AccountType}");
+                            account.Debit(-transactionAmount, pin);
+                            Console.WriteLine($"Debit: {transactionAmount}, Balance: {account.GetBalance().ToString("C")}, Account Holder: {account.GetAccountHolderName()}, Account Type: {account.AccountType}");
                         }
                     }
                     catch (Exception ex)
                     {
                         Console.WriteLine($"Transaction failed: {ex.Message}");
+                        LogException(ex);
                     }
                 }
 
-                Console.WriteLine($"Account: {account.AccountNumber}, Balance: {account.Balance.ToString("C")}, Account Holder: {account.AccountHolderName}, Account Type: {account.AccountType}");
+                Console.WriteLine($"Account: {account.GetAccountNumber()}, Balance: {account.GetBalance().ToString("C")}, Account Holder: {account.GetAccountHolderName()}, Account Type: {account.AccountType}");
             });
 
             await Task.WhenAll(tasks);
@@ -90,6 +94,7 @@
         {
             var tasks = accounts.Select(async account =>
             {
+                string pin = GenerateRandomPin(); // Assuming you have a way to get the correct PIN for each account
                 for (int i = 0; i < numberOfTransactions; i++)
                 {
                     double transactionAmount = GenerateRandomDollarAmount(false, minTransactionAmount, maxTransactionAmount);
@@ -97,22 +102,23 @@
                     {
                         if (transactionAmount >= 0)
                         {
-                            account.Credit(transactionAmount);
-                            Console.WriteLine($"Credit: {transactionAmount}, Balance: {account.Balance.ToString("C")}, Account Holder: {account.AccountHolderName}, Account Type: {account.AccountType}");
+                            account.Credit(transactionAmount, pin);
+                            Console.WriteLine($"Credit: {transactionAmount}, Balance: {account.GetBalance().ToString("C")}, Account Holder: {account.GetAccountHolderName()}, Account Type: {account.AccountType}");
                         }
                         else
                         {
-                            account.Debit(-transactionAmount);
-                            Console.WriteLine($"Debit: {transactionAmount}, Balance: {account.Balance.ToString("C")}, Account Holder: {account.AccountHolderName}, Account Type: {account.AccountType}");
+                            account.Debit(-transactionAmount, pin);
+                            Console.WriteLine($"Debit: {transactionAmount}, Balance: {account.GetBalance().ToString("C")}, Account Holder: {account.GetAccountHolderName()}, Account Type: {account.AccountType}");
                         }
                     }
                     catch (Exception ex)
                     {
                         Console.WriteLine($"Transaction failed: {ex.Message}");
+                        LogException(ex);
                     }
                 }
 
-                Console.WriteLine($"Account: {account.AccountNumber}, Balance: {account.Balance.ToString("C")}, Account Holder: {account.AccountHolderName}, Account Type: {account.AccountType}");
+                Console.WriteLine($"Account: {account.GetAccountNumber()}, Balance: {account.GetBalance().ToString("C")}, Account Holder: {account.GetAccountHolderName()}, Account Type: {account.AccountType}");
             });
 
             await Task.WhenAll(tasks);
@@ -127,7 +133,7 @@
             }
             else
             {
-                double transactionAmount = random.NextDouble() * random.Next((int)min, (int)max) + random.NextDouble();
+                double transactionAmount = random.NextDouble() * (max - min) + min;
                 return Math.Round(transactionAmount, 2);
             }
         }
@@ -157,6 +163,21 @@
             }
 
             return randomDate;
+        }
+
+        static string GenerateRandomPin()
+        {
+            return random.Next(1000, 9999).ToString(); // Generates a random 4-digit PIN
+        }
+
+        private static void LogException(Exception ex)
+        {
+            string logFilePath = "exception_log.txt";
+            using (StreamWriter writer = new StreamWriter(logFilePath, true))
+            {
+                writer.WriteLine($"{DateTime.Now}: {ex.GetType().Name} - {ex.Message}");
+                writer.WriteLine(ex.StackTrace);
+            }
         }
     }
 }

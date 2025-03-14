@@ -1,0 +1,15 @@
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/bin/Debug/net8.0/APL2007M3SalesReport
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/bin/Debug/net8.0/APL2007M3SalesReport.deps.json
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/bin/Debug/net8.0/APL2007M3SalesReport.runtimeconfig.json
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/bin/Debug/net8.0/APL2007M3SalesReport.dll
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/bin/Debug/net8.0/APL2007M3SalesReport.pdb
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/obj/Debug/net8.0/APL2007M3SalesReport.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/obj/Debug/net8.0/APL2007M3SalesReport.AssemblyInfoInputs.cache
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/obj/Debug/net8.0/APL2007M3SalesReport.AssemblyInfo.cs
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/obj/Debug/net8.0/APL2007M3SalesReport.csproj.CoreCompileInputs.cache
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/obj/Debug/net8.0/APL2007M3SalesReport.sourcelink.json
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/obj/Debug/net8.0/APL2007M3SalesReport.dll
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/obj/Debug/net8.0/refint/APL2007M3SalesReport.dll
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/obj/Debug/net8.0/APL2007M3SalesReport.pdb
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/obj/Debug/net8.0/APL2007M3SalesReport.genruntimeconfig.cache
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-CodeLogicChallenge/obj/Debug/net8.0/ref/APL2007M3SalesReport.dll

@@ -1,0 +1,15 @@
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/bin/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/bin/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.deps.json
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/bin/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.runtimeconfig.json
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/bin/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.dll
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/bin/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.pdb
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/obj/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/obj/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.AssemblyInfoInputs.cache
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/obj/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.AssemblyInfo.cs
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/obj/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.csproj.CoreCompileInputs.cache
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/obj/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.sourcelink.json
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/obj/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.dll
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/obj/Debug/net8.0/refint/APL2007M3SalesReport-NewCodeChallenge.dll
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/obj/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.pdb
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/obj/Debug/net8.0/APL2007M3SalesReport-NewCodeChallenge.genruntimeconfig.cache
+/workspaces/c-sharp-sample1/APL2007M3SalesReport-NewCodeChallenge/obj/Debug/net8.0/ref/APL2007M3SalesReport-NewCodeChallenge.dll
